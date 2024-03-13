@@ -1,0 +1,19 @@
+select {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    outline: 0;
+    background: #000000;
+    color: #12aaf0;
+    border: 2px solid rgb(197, 8, 150);
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    
+  }
+
+   .menu1{
+    
+    position: absolute;
+
+}

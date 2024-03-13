@@ -1,0 +1,218 @@
+/* Aplica la fuente Arial a todos los elementos */
+
+*{
+    font-family: Arial;
+  }
+  /* Oculta todas las listas no ordenadas */
+  ul{
+    display: none;
+  }
+  /* Muestra la lista no ordenada cuando se selecciona un input */
+  input:checked  ~ ul{
+    display:block;
+  }
+  /* Oculta todos los inputs */
+  input {
+    display: none;
+  }
+  
+  label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid rgb(180, 6, 6);
+    border-radius: 5px;
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    position:absolute;
+}
+  
+  /* Estilo del boton cuando se pasa el mouse por encima*/
+  label:hover{
+    background: rgb(241, 46, 16);
+  }
+  
+  /* Estilo del boton cuando el menú está expandido*/
+  input:checked ~ label {
+    background: rgb(0, 0, 0); 
+  }
+  
+  ul{
+    margin-top:0;
+    padding: 0;
+    width: 200px;
+  
+  }
+  
+  
+  li {
+    display: block;
+    background: rgba(162, 41, 17, 0.856);
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid rgb(109, 105, 105);
+  }
+  
+  /*Estilo cuando el mouse pasa encima de cada link del menu*/
+  li:hover {
+    filter: brightness(110%);
+  }
+  /* Estilos para el título h1 */
+  h1{
+   margin: 0;
+   margin-left: 750px;
+   font-size: 60px;
+   font-family: 'Lucida Grande';
+  }
+
+  .a{
+    color: black;
+    text-decoration: none;
+  }
+.caja1{
+    display: flex;
+   background-color:black;
+   height: 70px;
+   width: 2000px;
+   position: absolute;
+   
+}
+  
+.caja2{
+  width:800px;
+  height: 650px;
+  color: white;
+ position: absolute;
+ bottom:0;
+ right: 0;
+left: 1160px;
+ top: 0;
+ margin-right: 100px;
+}
+body {
+	font-size:80%;
+  background-image:url(https://www.10wallpaper.com/wallpaper/1366x768/1807/Pink_Curves_Waves_Background_Design_1366x768.jpg);
+  background-size: cover;
+  background-position: 100%;
+  height: 500px;
+  width: 100%;
+  
+}
+.contenedor{
+top: 20px;
+  height: 600px;
+  position: relative; /*Acomodar la caja verde caja3*/
+}
+.caja3{
+  background-color: rgb(16, 12, 12);
+  border-radius: 50px;
+  bottom:0;
+ right:0;
+ left: 0px;
+ top: 0;
+  width: 1100px;
+  height: 550px;
+  margin-left: 10px;
+  color: white;
+  position: absolute; /*Acomodar la caja verde caja3*/
+  height: 650px;
+
+  display: grid;
+    grid-template-columns: auto auto; /* Dos columnas de tamaño automático */
+    gap: 10px; /* Espacio entre las columnas */
+}
+.caja3 div{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(48, 48, 48, 0.831);
+    border-radius: 50px;
+}
+ .personal{
+    width: 400px;
+    height: 380px;
+    margin-left: 40px;
+    border-radius: 300px;
+ }
+ .c31{
+    width: 450px;
+    margin-bottom: 10px;
+ }
+ .c32{
+    width: 550px;
+ }
+
+/*        Carrucel              */
+.anyClass {
+ 
+  height:100%;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  margin-right: 20px;
+
+  }
+
+
+/* porcentaje base, solo en el body */
+p {
+	font-size:0.9em;
+  margin-left: 5px;
+}
+h1 {
+	font-size:2em;
+  
+}
+h2 {
+	font-size:1.4em;
+  margin-left: 5px;
+}
+#pie {
+	font-size:1.2em;
+}
+.epigrafes {
+	font-size:1.1em;
+}
+ .linea{
+    width: 2000px;
+    height: 3px;
+    background-color: rgb(244, 18, 180);
+    position: absolute;
+    margin-top: 80px;
+ }
+
+ .trabajo{
+   
+    background-color: rgb(29, 29, 29);
+    margin-top: 100px;
+    margin-bottom: 3px;
+    width: 2000px;
+    height: 700px;
+
+    display: flex;
+    grid-template-columns: auto auto; /* Dos columnas de tamaño automático */
+    gap: 10px; /* Espacio entre las columnas */
+ }
+ .trabajo div{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+   background-color: rgba(240, 255, 255, 0.341);
+ }
+ .t11, .t12{
+    width: 600px;
+    height: 670px;
+ }
+.contacto{
+    width: 40px;
+    height: 40px;
+}
+.t2{
+    font-size: 15px;
+}
+.conta{
+    background-color: rgb(172, 97, 5);
+}
